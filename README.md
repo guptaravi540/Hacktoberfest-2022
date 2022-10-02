@@ -3,7 +3,8 @@
 
 
 # Beginner-Hacktoberfest
-Need Your first pr for hacktoberfest 2k22 ? come on in 
+Need Your first pr for hacktoberfest 2k22 ? come on in. Sorry this repo is excluded
+![image](https://user-images.githubusercontent.com/92597560/193444164-0de0db03-2695-4e78-8a3a-83cbf8f8b011.png)
 
 ---
 
