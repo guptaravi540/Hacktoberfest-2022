@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="con">
+        <div class="box1">
+            <h1 class="head">BMI CALCULATOR</h1>
+        </div>
+        <div class="box3">
+            <h2 class="about">About BMI</h2>
+            <p class="abt">
+                Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity.
+<br><br>
+BMI does not measure body fat directly, but BMI is moderately correlated with more direct measures of body fat. Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these more direct measures of body fatness 
+            </p>
+        </div>
+        <div class="box2">
+            <form class="form" onsubmit="return false">
+                <img src="./img/weight.png">
+            Weight : <input id="weight" name="" class="f wt" type="text" placeholder="Enter Weight in Kg"><br>
+            <img src="./img/height.png">
+            Height : <input id="height" class="f ht" name="" type="text" placeholder="Enter Height in Feet. eg. 5.7"><br>
+            <img src="./img/bmi2.png">
+            BMI = <input id="bmiValue" name="" class="f bmi" type="text">
+            <br>
+            <button type="submit" id="sub" class="sub" onclick="getbmi()">Get BMI</button>
+            </form>
+        </div>
+
+        <div class="box4">
+            <h3 class="find">Find Your Fitness Level</h3>
+            <img class="img1" src="./img/bmi.png" >
+        </div>
+        
+    </div>
+    <div class="box5">
+        <h2 class="dev">Alok Kumar</h2>
+        <p class="dev"> &copy All Right Reserved</p>
+    </div>
+
+    <script>
+        
+        function getbmi(){
+    var weight=document.getElementById("weight").value;
+var height=document.getElementById("height").value;
+   var ht=height*12*0.0254;
+    var bmivalue= weight/(ht*ht);
+    var n=bmivalue.toFixed(2);
+    document.getElementById("bmiValue").value = n;  
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+   background: url("./img/anders-jilden-O85h02qZ24w-unsplash.jpg");
+}
+
+
+.box1 .head{
+    text-align: center;
+    font-size:5rem;
+    /* background: radial-gradient(white,rgb(255, 0, 221),orange,red); */
+    background: linear-gradient(to right,purple,orange,red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box2 .form{
+    position: relative;
+    top: 7rem;
+    text-align: center;
+    font-size: 3rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 2.5rem;
+    margin: auto;
+    box-shadow: 0rem 0.5rem 2.0rem 0.2rem black;
+}
+.f{
+    height: 3rem;
+    width: 25rem;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    
+}
+.f:hover{
+    background: rgba(228, 13, 13, 0.356);
+
+}
+.bmi{
+    margin-left: 2.5rem;
+}
+.sub{
+    height: 3rem;
+    width: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    background:red;
+    margin-left: -26rem;
+    border-radius: 0.5rem;
+    border:0.2rem solid black;
+}
+.sub:hover{
+    background-color: green;
+}
+.box3{
+    position: relative;
+    top: 3rem; 
+    width: 64rem;
+    margin: auto;
+    padding: 1.5rem;
+    box-shadow: 0rem 0.5rem 2.0rem 0.2rem black;
+
+}
+
+.box3 .about{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.box3 .abt{
+    font-size:2rem;
+    width: 60rem;
+    margin: auto;
+}
+.box4{
+    
+    position: relative;
+    top: 10rem;
+    width:60rem;
+    margin: auto;
+    box-shadow: 0rem 5rem 20rem 2rem black;
+    padding: 1.5rem;
+}
+.box4 .find{
+    margin: auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.box4 .img1{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+}
+.box5{
+position: relative;
+top: 12rem;
+    background: rgba(0, 0, 0, 0.698);
+}
+.dev{
+    text-align: center;
+    color:white;
+    position: sticky;
+    font-size: 2rem;
+   
+}
+@media (max-width:49.9rem){
+    
+    .box1 .head{
+        font-size: 3.4rem;
+        width:100vw;
+        height: 5rem;
+          }
+    .box2{
+            position: relative;
+            top: 5rem;   
+            font-size: 2rem;
+            width:95vw;
+            height: 20rem;
+            padding: 1rem; 
+        }
+    .box3{
+            position: relative;
+            top: 5rem;   
+            font-size: 2rem;
+            width: 95vw;
+            height: 48rem;
+            padding: 1rem;
+             
+        }
+    .box3 .abt{
+        width:90vw;
+    }
+        .f{
+            height: 3.2rem;
+            width: 13rem;
+            padding: 0.5rem;
+            font-size: 1.4rem;
+            border-radius:0.5rem;   
+        }
+        .f:hover{
+           
+            width: 15rem;
+              
+        }
+    .box2 .form{  
+        position: relative;
+            top: 3rem;
+            font-size: 2.5rem;
+            width:95vw;
+            height: 23rem;
+            padding-top: 4rem;        
+        }
+    .box4{
+            position: relative;
+            top: 16rem;   
+            font-size: 2rem;
+            width: 95vw;
+            height: 30rem;
+            padding: 1rem; 
+        }
+    .box5{
+        position: relative;
+            top: 20rem; 
+            width: 100vw;
+    }
+    .sub{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        height: 3.5rem;
+    }  
+}
